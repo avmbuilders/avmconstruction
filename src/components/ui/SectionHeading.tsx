@@ -15,7 +15,7 @@ export default function SectionHeading({ title, subtitle }: SectionHeadingProps)
         <div className="h-1 w-20 bg-yellow-600 rounded-full"></div>
       </div>
       {subtitle && (
-        <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-sm md:text-base">
+        <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
           {subtitle}
         </p>
       )}

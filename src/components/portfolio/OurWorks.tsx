@@ -68,13 +68,15 @@ export default function OurWorks() {
             <button
               key={index}
               onClick={() => setCurrentIndex(index)}
-              className={`w-3 h-3 rounded-full transition-all ${
-                currentIndex === index
-                  ? "bg-yellow-600 w-6"
-                  : "bg-gray-300 hover:bg-gray-400"
-              }`}
+              className="min-w-[24px] min-h-[24px] flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-500 rounded-full"
               aria-label={`Go to slide ${index + 1}`}
-            />
+            >
+              <span className={`block transition-all rounded-full ${
+                currentIndex === index
+                  ? "bg-yellow-600 w-6 h-3"
+                  : "bg-gray-300 hover:bg-gray-400 w-3 h-3"
+              }`} />
+            </button>
           ))}
         </div>
       </div>

@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
+        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-sm">
           <p>© {new Date().getFullYear()} AVM Construction. All rights reserved.</p>
           <p>M. Aanandharaman B.E. (Registered Engineer Grade II)</p>
         </div>

@@ -59,7 +59,7 @@ export default function Services() {
           Our Services
         </h2>
         <div className="w-20 h-1.5 bg-yellow-600 mx-auto rounded-full mt-4"></div>
-        <p className="mt-4 text-slate-500 max-w-2xl mx-auto text-lg">
+        <p className="mt-4 text-slate-600 max-w-2xl mx-auto text-lg">
           Expert solutions serving Vriddhachalam & Andimadam
         </p>
       </div>

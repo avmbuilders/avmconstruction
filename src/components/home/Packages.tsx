@@ -14,7 +14,7 @@ export default function Packages() {
             Our Pricing Packages
           </h2>
           <div className="w-20 h-1.5 bg-yellow-600 mx-auto rounded-full mt-4"></div>
-          <p className="mt-4 text-slate-500 max-w-2xl mx-auto text-lg">
+          <p className="mt-4 text-slate-600 max-w-2xl mx-auto text-lg">
             Transparent pricing tailored to fit your vision and budget. Choose the perfect tier for your dream project.
           </p>
         </div>
